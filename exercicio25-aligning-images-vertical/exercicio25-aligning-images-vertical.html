@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Alinhamento vertical da imagem</title>
+    <style>
+        /* CSS para alinhar as imagens verticalmente */
+        .vertical-images {
+            display: flex;
+            flex-direction: column; /* Faz as imagens ficarem em coluna */
+            align-items: center;    /* Centraliza horizontalmente */
+            gap: 20px;              /* Espaçamento entre as imagens */
+        }
+
+        .vertical-images img {
+            width: 300px; /* Ajuste o tamanho conforme necessário */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conservação da Vida Selvagem</h1>
+
+    <div class="vertical-images">
+        <img src="imagem1.jpg" alt="Animal 1">
+        <img src="imagem2.jpg" alt="Animal 2">
+        <img src="imagem3.jpg" alt="Animal 3">
+    </div>
+</body>
+</html>
